@@ -1,0 +1,14 @@
+###
+
+DELETE http://localhost:8080/api/users/5e4579518f331b2838b5f117
+
+###
+
+POST http://localhost:8080/api/communities
+Content-Type: application/json
+
+{
+    "name":"JavaProgrammers",
+    "description":"It is only for java programmers"
+}
+
